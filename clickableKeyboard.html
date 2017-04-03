@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Clickable Keyboard </title>
+    <link rel="stylesheet" href="mainstyle.css" type="text/css" />
+    <style>
+        html {
+            background: url("https://image.freepik.com/vetores-gratis/fundo-iluminated-azul-escuro_1095-175.jpg") no-repeat center center fixed;
+            background-size: 1600px 1000px;
+        }
+        
+        p {
+            display: inline-block;
+            font-size: 30px;
+            letter-spacing: 5px;
+            padding: 5px;
+        }
+        
+        h1 {
+            text-align:center;
+        }
+        
+        div {
+            display: inline-block;
+            width: 100px;
+            height: 240px;
+            text-align: center;
+            border-radius: 25%;
+            margin-left: 35px;
+            margin-top: 140px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 30px;
+            background: white;
+            box-shadow: 5px 5px 5px 5px #737373;
+        }
+    
+        #notes {
+            background:white;
+            border: double 10px #737373;
+            width:75%;
+            height:360px;
+            line-height: 2px;
+            border-radius: 25px;
+            font-size:15px;
+            text-align:center;
+            vertical-align: text-bottom;
+            margin-top :10px;
+        }
+        
+        
+        .tooltiptext {
+            visibility: hidden;
+            background: none;
+            color: black;
+            text-align: center;
+            position: static;
+            display: block;
+            margin-top: 210px;
+            font-size: 30px;
+        }
+        
+
+        .classOfKeys:hover .tooltiptext {
+            visibility: visible;
+
+        }
+        
+        .selectMusic {
+            font-size:20px;
+            vertical-align:middle;
+            border-radius:100%;
+            height:40px;
+            width: 40px;
+            box-shadow: 3px 3px 3px 3px #737373;
+            display:inline-block;
+            margin-top:30px;
+            
+        }
+     
+    </style>
+</head>
+
+
+<body>
+
+<center>
+    <div id="C1" class="classOfKeys"> C
+        <span class="tooltiptext">Press "A" on Keyboard</span>
+    </div>
+    <div id="D" class="classOfKeys"> D
+        <span class="tooltiptext">Press "S" on Keyboard</span>
+    </div>
+    <div id="E" class="classOfKeys"> E
+        <span class="tooltiptext">Press "D" on Keyboard</span>
+    </div>
+    <div id="F" class="classOfKeys"> F
+        <span class="tooltiptext">Press "F" on Keyboard</span>
+    </div>
+    <div id="G" class="classOfKeys"> G
+        <span class="tooltiptext">Press "J" on Keyboard</span>
+    </div>
+    <div id="A" class="classOfKeys"> A
+        <span class="tooltiptext">Press "K" on Keyboard</span>
+    </div>
+    <div id="B" class="classOfKeys"> B
+        <span class="tooltiptext">Press "L" on Keyboard</span>
+    </div>
+    <div id="C2" class="classOfKeys"> C
+        <span class="tooltiptext">Press ";" on Keyboard</span>
+    </div>
+    
+<center>
+    <div id="button1" class="selectMusic"> 1 </div>
+    <div id="button2"  class="selectMusic"> 2 </div>
+     <div id="button3"  class="selectMusic"> 3 </div>
+</center>    
+    
+</center>    
+<h1 id="songTitle"> Song title will appear here </h1>
+<center>    
+    <div id="notes" style="margin-bottom:50px">
+        
+    </div>
+    
+</center>    
+    <script src="keyboard.js"></script>
+</body>
+
+</html>

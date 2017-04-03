@@ -1,0 +1,98 @@
+div:hover {
+    background:white;
+    transform:scale(.85,.85);
+
+}
+
+#C1:hover {
+            color:white;
+            background:#99e6ff;
+        }
+        
+#C1:active {
+            background-color: #99e6ff;
+            box-shadow: 9px 9px 9px #737373;
+            transform: translateY(5px);
+        }
+
+#G:hover {
+    color:white;
+    background:#ff8080;
+}
+
+#G:active {
+    background:#ff8080;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+
+#A:hover {
+    color:white;
+    background: #ff4dd2;
+}
+
+#A:active{
+    background: #ff4dd2;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+#D:hover {
+    color:white;
+    background:  #4dff4d;
+}
+
+#D:active{
+    background:  #4dff4d;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+
+#E:hover {
+    color:white;
+    background: #ffff4d;
+}
+
+#E:active{
+    background: #ffff4d;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+
+#F:hover {
+    color:white;
+    background: #ff944d;
+}
+
+#F:active{
+    background: #ff944d;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+
+#B:hover {
+    color:white;
+    background: #cc00cc;
+}
+
+#B:active{
+    background: #cc00cc;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+#C2:hover {
+    color:white;
+    background: #0000ff;
+}
+
+#C2:active{
+    background: #0000ff;
+    box-shadow: 9px 9px 9px #737373;
+    transform: translateY(5px);
+}
+
+#8ac840af-bf3c-4d00-ac8a-678f13dca7e6{
+    display: none;
+}
+article {
+    display:none;
+}
